@@ -4,7 +4,7 @@ jobName = "Reading a csv file "
 className = org.example.khalil.SparkApp
 utility_jar =  $($basedir/utility_jar)
 app_jar = /spp/target/spp-1.0-SNAPSHOT.jar
-echo "Submitting spark job" 
+echo "Submitting spark job  " 
 mvn install 
 ./spark-submit --class   $className 
 --name $jobName
